@@ -1,0 +1,77 @@
+*{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: rgba(58, 57, 57, 0.897);
+}
+.fathre{
+    background-color: black;
+    width: 500px;
+    margin: auto;
+    height: 450px;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+}
+.headr{
+    /*width: calc(1%-98%);
+    */width: 491px;
+    height: 55px;
+    background-color: #e91e63;
+    /*margin: auto;
+    */position: relative;
+    margin-left: 1%;
+    top: 7px;
+    margin-bottom: 2%;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.headr>p{
+    overflow: auto;
+    direction: rtl;
+    /* padding: 15px; */
+    font-size: xx-large;
+    color: white;
+    font-family: sans-serif;
+    padding-right: 14px;
+    padding-top: 12px;
+}
+.headr>p::-webkit-file-upload-button {
+    background-color: #e91e63;
+}
+.body-pdge{
+    text-align: center;
+    cursor: none;
+}
+button{
+    width: 100px;
+    height: 66px;
+    margin-top: 9px;
+    background-color: black;
+    color: white;
+    transition-duration: .2s;
+    font-size: x-large;
+    cursor: pointer;
+}
+button:hover {
+    background-color: rgb(139, 135, 135);
+}
+.btn {
+    background-color: aliceblue;
+    color: black;
+    clip-path: circle();
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.btn:hover{
+    background-color: rgba(239, 121, 121, 0.717);
+}
+dl{
+    color: #2938df;
+}
